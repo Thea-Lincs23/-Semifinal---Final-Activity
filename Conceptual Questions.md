@@ -7,6 +7,7 @@ a. Difference between classification and regression
 •Regression predicts a continuous numeric value (e.g., price, temperature, sales amount).
 
 b. Give two examples each of:
+
 • Binary classification
 
 Email spam detection (Spam / Not Spam)
@@ -20,6 +21,7 @@ Classifying fruits (Apple / Banana / Mango)
 Predicting type of vehicle (Car / Truck / Motorcycle / Bus)
 
 c. Define the following evaluation metrics:
+
 • Accuracy-
 The proportion of correct predictions out of all predictions
 
@@ -40,7 +42,7 @@ A table showing TP, TN, FP, and FN to evaluate classification performance.
 a. Why is logistic regression considered a classification algorithm, not a regression algorithm?
 
 - Because it outputs probabilities of classes using the sigmoid function and classifies data into discrete categories, not continuous values.
-- 
+
 b. What is the role of the sigmoid function in logistic regression?
 
 -Converts any number into a probability between 0 and 1, which is used to decide the class.
@@ -60,6 +62,7 @@ Not suitable for complex, non-linear relationships (unless features are transfor
 Sensitive to outliers and multicollinearity.
 
 3. K-Nearest Neighbors (KNN)
+
 a. What does it mean that KNN is a non-parametric and lazy learning algorithm?
 
 • Non-parametric:

@@ -36,6 +36,7 @@ a. Why is logistic regression considered a classification algorithm, not a regre
 b. What is the role of the sigmoid function in logistic regression?
 -Converts any number into a probability between 0 and 1, which is used to decide the class.
 c. List two advantages and two disadvantages of logistic regression.
+
 • Advantages
 
 Simple to implement and interpret.
@@ -50,10 +51,15 @@ Sensitive to outliers and multicollinearity.
 
 3. K-Nearest Neighbors (KNN)
 a. What does it mean that KNN is a non-parametric and lazy learning algorithm?
+
 • Non-parametric:
+
 It makes no assumptions about the data distribution. No equation/model is learned.
+
 • Lazy learning:
+
 It does not train a model.
+
 It stores the dataset, and during prediction, it calculates distances only when needed, making prediction slower.
 
 b. Describe the steps of how KNN classifies a new data point.
@@ -63,14 +69,21 @@ b. Describe the steps of how KNN classifies a new data point.
 4. Assign the majority class as the prediction.
 
 c. Explain how choosing a small K vs. a large K affects the model.
+
 • Small K (e.g., K = 1 or 3):
+
 Very sensitive to noise.
+
 Higher chance of overfitting.
+
 More flexible but less stable.
 
 • Large K (e.g., K = 15 or 25):
+
 More stable and smooth decision boundaries.
+
 Can underfit (too generalized).
+
 Less sensitive to outliers.
 
 d. Why is feature scaling (normalization/standardization) important for KNN?

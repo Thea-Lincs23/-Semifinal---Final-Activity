@@ -13,10 +13,8 @@ Classifying fruits (Apple / Banana / Mango)
 Predicting type of vehicle (Car / Truck / Motorcycle / Bus)
 
 c. Define the following evaluation metrics:
-
-• Accuracy-
+• Accuracy 
 The proportion of correct predictions out of all predictions
-
 • Precision-
 Of the items the model predicted as positive, how many were actually positive.
 

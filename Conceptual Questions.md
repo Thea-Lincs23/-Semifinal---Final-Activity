@@ -1,20 +1,28 @@
 --- 1. Classification Basics ---
 
 a. Difference between classification and regression
+
 •Classification predicts a category/class label (e.g., spam/not spam, disease/no disease).
+
 •Regression predicts a continuous numeric value (e.g., price, temperature, sales amount).
 
 b. Give two examples each of:
 • Binary classification
+
 Email spam detection (Spam / Not Spam)
+
 Medical diagnosis (Positive / Negative)
+
 • Multiclass classification
+
 Classifying fruits (Apple / Banana / Mango)
+
 Predicting type of vehicle (Car / Truck / Motorcycle / Bus)
 
 c. Define the following evaluation metrics:
-• Accuracy 
+• Accuracy-
 The proportion of correct predictions out of all predictions
+
 • Precision-
 Of the items the model predicted as positive, how many were actually positive.
 
@@ -30,9 +38,13 @@ A table showing TP, TN, FP, and FN to evaluate classification performance.
 --- 2. Logistic Regression ---
 
 a. Why is logistic regression considered a classification algorithm, not a regression algorithm?
+
 - Because it outputs probabilities of classes using the sigmoid function and classifies data into discrete categories, not continuous values.
+- 
 b. What is the role of the sigmoid function in logistic regression?
+
 -Converts any number into a probability between 0 and 1, which is used to decide the class.
+
 c. List two advantages and two disadvantages of logistic regression.
 
 • Advantages

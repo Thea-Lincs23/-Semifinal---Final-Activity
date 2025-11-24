@@ -14,19 +14,19 @@ Predicting type of vehicle (Car / Truck / Motorcycle / Bus)
 
 c. Define the following evaluation metrics:
 
-• Accuracy
+• Accuracy-
 The proportion of correct predictions out of all predictions
 
-• Precision
+• Precision-
 Of the items the model predicted as positive, how many were actually positive.
 
-• Recall
+• Recall-
  Out of all the actual positive items, how many the model was able to find.
 
-• F1 Score
+• F1 Score-
 The harmonic mean of precision and recall; balances the two.
 
-• Confusion Matrix
+• Confusion Matrix-
 A table showing TP, TN, FP, and FN to evaluate classification performance.
 
 --- 2. Logistic Regression ---
@@ -37,11 +37,15 @@ b. What is the role of the sigmoid function in logistic regression?
 -Converts any number into a probability between 0 and 1, which is used to decide the class.
 c. List two advantages and two disadvantages of logistic regression.
 • Advantages
+
 Simple to implement and interpret.
+
 Works well when classes are linearly separable.
 
 • Disadvantages
+
 Not suitable for complex, non-linear relationships (unless features are transformed).
+
 Sensitive to outliers and multicollinearity.
 
 3. K-Nearest Neighbors (KNN)
